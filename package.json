@@ -1,0 +1,21 @@
+{
+  "name": "music-sync",
+  "private": true,
+  "scripts": {
+    "prettier": "prettier --write '{src,scripts}/**/*{.ts,.js}'",
+    "compare": "ts-node scripts/compare.ts",
+    "update-spotify-songs": "ts-node scripts/update-spotify-songs.ts",
+    "update-spotify-token": "ts-node scripts/update-spotify-token.ts"
+  },
+  "author": "Andy Bitz",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "13.7.1",
+    "chalk": "3.0.0",
+    "dotenv": "8.2.0",
+    "node-fetch": "2.6.0",
+    "prettier": "1.19.1",
+    "ts-node": "8.6.2",
+    "typescript": "3.7.5"
+  }
+}
